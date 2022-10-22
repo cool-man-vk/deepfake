@@ -4,6 +4,9 @@
     height: 88vh;
     width: 100%;
     background-image: url('https://images.unsplash.com/photo-1618590067824-5ba32ca76ce9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +35,7 @@
     margin:10px;
 }
 
-h3 {
+.quote {
     font-size: 28px;
     padding:8px;
     font-family: 'Handlee', cursive;

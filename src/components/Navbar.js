@@ -10,7 +10,7 @@ const Navbar = () => {
     return(
         <div className={classes.navbar}>
             <div className={classes.logo}>
-                <Link to='/'><h2>Vignesh</h2></Link>
+                <Link to='/'><h2>DeMystify</h2></Link>
             </div>
             <div className={classes.options}>
                 <ul className={classes.menus}>

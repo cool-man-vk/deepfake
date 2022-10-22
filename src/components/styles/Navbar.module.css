@@ -15,7 +15,9 @@ a {
 
 .logo {
     padding:12px;
+    font-size:20px;
 }
+
 
 ul {
     list-style: none;
@@ -23,4 +25,5 @@ ul {
 }
 .menus > a{
     margin:15px;
+    font-size: 18px;
 }
