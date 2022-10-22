@@ -1,4 +1,5 @@
 import classes from './styles/Navbar.module.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navOptions = [
@@ -9,7 +10,7 @@ const Navbar = () => {
     return(
         <div className={classes.navbar}>
             <div className={classes.logo}>
-                <a href='/'><h2>Vignesh</h2></a>
+                <Link to='/'><h2>Vignesh</h2></Link>
             </div>
             <div className={classes.options}>
                 <ul className={classes.menus}>
@@ -17,9 +18,9 @@ const Navbar = () => {
                         navOptions.map(
                             (opt) => {
                                 return (
-                                    <a href={opt.link}>
+                                    <Link to={opt.link}>
                                         <li>{opt.name}</li>
-                                    </a>
+                                    </Link>
                                 );
                             }
                         )
