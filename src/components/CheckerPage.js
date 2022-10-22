@@ -7,9 +7,6 @@ const CheckerPage = () => {
                 <h1 style={{'textAlign':'center'}}className={classes.title}>Deepfake Detector</h1>
                 <form method='post' action="">
                         <input type="url" name="url" placeholder='Enter the url of the image' className={classes.inputs}/>
-                        {/* <div className={classes.divider}>
-                            <h5>-------------OR-------------</h5>
-                        </div> */}
                         <input type="file" name="file-input" className={classes['file-input']} />
                         <button type='submit' className={classes['btn-primary']}>Submit</button>
                 </form>
