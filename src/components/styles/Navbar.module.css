@@ -6,19 +6,14 @@
     height: 12vh;
     align-items: center;
 }
-
 a {
     text-decoration: none;
     color: white;
-    
 }
-
 .logo {
     padding:12px;
     font-size:20px;
 }
-
-
 ul {
     list-style: none;
     display: flex;
