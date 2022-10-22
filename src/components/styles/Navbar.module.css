@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    height: 12vh;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.logo {
+    padding:12px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+.menus > a{
+    margin:15px;
+}
