@@ -9,7 +9,7 @@ const Navbar = () => {
     return(
         <div className={classes.navbar}>
             <div className={classes.logo}>
-                <a href='/'><h3>Vignesh</h3></a>
+                <a href='/'><h2>Vignesh</h2></a>
             </div>
             <div className={classes.options}>
                 <ul className={classes.menus}>
